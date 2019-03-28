@@ -32,6 +32,10 @@ body {
     font-size: 3em;
 }
 
+#emailLink {
+    color:white;
+}
+
 .jumbotron {
     margin-top: 0rem;
     margin-left: 1rem;
@@ -172,6 +176,132 @@ body {
 // No media query for `xs` since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 1025px) {
+
+    #outline {
+        border: 5px;
+        border-style: solid;
+        border-color: #f7fbfa;
+        margin-top: 15%;
+        margin-bottom: 45%;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+    }
+
+    #firmName {
+        text-align: center;
+        font-family: "Times New Roman";
+        color: #262626;
+        margin-top: 7.5%;
+        font-size: 3em;
+    }
+
+    .lead {
+        text-align: center;
+        margin-top:5%;
+        margin-bottom: 3%;
+        font-size: 2em;
+        color: #262626;
+    }
+
+    .namePlate {
+        font-size: 2em;
+        text-align: center;
+        color: #262626;
+    }
+
+    .legal{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1em;
+        text-justify: distribute-all-lines;
+        margin-top: 5%;
+        margin-bottom:20%;
+     
+     }
+    
+     .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        /* margin-left:1%; */
+        /* margin-right:1%; */
+        /* background-color: rgb(35, 89, 189); */
+        color: #f7fbfa;
+        text-align: center;
+        font-size: 1.2em;
+        /* border-style: solid; */
+        /* border-width: 1px; */
+        /* border-color: rgb(35, 89, 189); */
+        background-color:#124666;
+    
+    }
+
+
+@media (max-width: 769px) {
+
+    #outline {
+        border: 5px;
+        border-style: solid;
+        border-color: #f7fbfa;
+        margin-top: 15%;
+        margin-bottom: 45%;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+    }
+
+    #firmName {
+        text-align: center;
+        font-family: "Times New Roman";
+        color: #262626;
+        margin-top: 7.5%;
+        font-size: 3em;
+    }
+
+    .lead {
+        text-align: center;
+        margin-top:5%;
+        margin-bottom: 3%;
+        font-size: 2em;
+        color: #262626;
+    }
+
+    .namePlate {
+        font-size: 2em;
+        text-align: center;
+        color: #262626;
+    }
+
+    .legal{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1em;
+        text-justify: distribute-all-lines;
+        margin-top: 5%;
+        margin-bottom:20%;
+     
+     }
+    
+     .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        /* margin-left:1%; */
+        /* margin-right:1%; */
+        /* background-color: rgb(35, 89, 189); */
+        color: #f7fbfa;
+        text-align: center;
+        font-size: 1.2em;
+        /* border-style: solid; */
+        /* border-width: 1px; */
+        /* border-color: rgb(35, 89, 189); */
+        background-color:#124666;
+    
+    }
+}
+
+
 @media (max-width: 576px) {
 
     #outline {
